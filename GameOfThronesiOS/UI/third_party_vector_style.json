@@ -1,0 +1,33 @@
+{
+    "version": 8,
+    "name": "Raster Tiles",
+    "sources": {
+        "yourTileLayer": {
+            "type": "raster",
+            "tiles": [
+                      "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png"
+                      ],
+            "tileSize": 256
+        }
+    },
+    "layers": [{
+               "id": "yourTileLayer",
+               "type": "raster",
+               "source": "yourTileLayer",
+               "paint": {
+               "raster-fade-duration": 100
+               }
+               }]
+}
+
+{
+    "version": 8,
+    "sources": {
+        "got": {
+            "type": "image",
+            "url": "http://tiles.got.show/bg/0/y0x0.png",
+            "tiles": ["http://tiles.got.show/bg/0/y0x0.png"],
+            "bounds": [85,-180, -43.85, 171.34]
+        }
+    }
+}
