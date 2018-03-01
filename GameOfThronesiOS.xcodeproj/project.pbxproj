@@ -36,6 +36,7 @@
 		3FC0D4781FF51C7300F8D233 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0D4771FF51C7300F8D233 /* MainViewController.swift */; };
 		3FC0D47C1FF5223200F8D233 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0D47B1FF5223200F8D233 /* CharacterTableViewCell.swift */; };
 		3FC0D47E1FF5226900F8D233 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0D47D1FF5226900F8D233 /* CharacterTableViewController.swift */; };
+		3FCDD1362048A8C300E730B4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDD1352048A8C300E730B4 /* Event.swift */; };
 		6C79C774260A22E1334521C1 /* Pods_GameOfThronesiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4375E2B292C2BA67C2395DD6 /* Pods_GameOfThronesiOSTests.framework */; };
 		F4D3CD926BDE512649E57B15 /* Pods_GameOfThronesiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC07793F9ED464AF047CF3D /* Pods_GameOfThronesiOS.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +94,7 @@
 		3FC0D4771FF51C7300F8D233 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3FC0D47B1FF5223200F8D233 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
 		3FC0D47D1FF5226900F8D233 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
+		3FCDD1352048A8C300E730B4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		4375E2B292C2BA67C2395DD6 /* Pods_GameOfThronesiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfThronesiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CED857D59AD0E706CD64E04 /* Pods-GameOfThronesiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesiOSTests/Pods-GameOfThronesiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9FC67A0F084A0CEA76071810 /* Pods-GameOfThronesiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfThronesiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfThronesiOS/Pods-GameOfThronesiOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,12 +156,13 @@
 		3F255B131FE3B89C002BCA22 /* GameOfThronesiOS */ = {
 			isa = PBXGroup;
 			children = (
-				3F450E4B1FF2D16700F1096C /* Age */,
+				3F255B201FE3B89C002BCA22 /* Info.plist */,
 				3F255B141FE3B89C002BCA22 /* AppDelegate.swift */,
 				3F255B1B1FE3B89C002BCA22 /* Assets.xcassets */,
+				3F450E4B1FF2D16700F1096C /* Age */,
+				3FCDD1342048A88300E730B4 /* Event */,
 				3F255B4A1FE3C6B3002BCA22 /* Hero */,
 				3F95359F1FE5609900C55794 /* House */,
-				3F255B201FE3B89C002BCA22 /* Info.plist */,
 				3F255B1D1FE3B89C002BCA22 /* LaunchScreen.storyboard */,
 				3F255B4B1FE3C7EF002BCA22 /* UI */,
 			);
@@ -233,6 +236,14 @@
 				3F8A81CB1FE5A02B00B5BD5C /* HouseResponse.swift */,
 			);
 			path = House;
+			sourceTree = "<group>";
+		};
+		3FCDD1342048A88300E730B4 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDD1352048A8C300E730B4 /* Event.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 		4A49E4BE2E5F8DCF81A40F53 /* Frameworks */ = {
@@ -532,6 +543,7 @@
 				3FC0D47C1FF5223200F8D233 /* CharacterTableViewCell.swift in Sources */,
 				3F450E531FF2D1E200F1096C /* AgeViewController.swift in Sources */,
 				3F450E551FF2D55200F1096C /* AgeViewModel.swift in Sources */,
+				3FCDD1362048A8C300E730B4 /* Event.swift in Sources */,
 				3F450E571FF2F19200F1096C /* MapViewController.swift in Sources */,
 				3F255B171FE3B89C002BCA22 /* HeroViewController.swift in Sources */,
 				3F450E4D1FF2D17A00F1096C /* Age.swift in Sources */,
